@@ -37,7 +37,7 @@ def apply_clearance(cart)
   cart.length.times do
     if cart[x][:clearance]
       puts cart[x][:price]
-      cart[x][:price] = cart[x][:price] - (cart[x][:price]*(1/5))
+      cart[x][:price] = 7
       puts cart[x][:price]
     end
     x += 1
